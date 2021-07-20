@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "51fed247d46c84ddd310fea6504a4b14",
+    "name" : "SpecFlowProjectAllure.Features.DemoAPIFeature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "77361839788aaf362722197e3a77f554",
+    "name" : "SpecFlowProjectAllure.Features.DemoFeature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d37641f90dd185c9cf302b7df58ee64b",
+    "name" : "SpecFlowProjectAllure.Features.DemoPOMFeature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

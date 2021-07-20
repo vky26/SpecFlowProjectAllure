@@ -1,0 +1,97 @@
+{
+  "SpecFlowProjectAllure.Features.DemoAPIFeature.DeleteRequest" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfc9987b42a11f61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768877776,
+        "stop" : 1626768881754,
+        "duration" : 3978
+      }
+    } ]
+  },
+  "SpecFlowProjectAllure.Features.DemoPOMFeature.LaunchAppPOM" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c80c889c1d0e33fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768896931,
+        "stop" : 1626768906344,
+        "duration" : 9413
+      }
+    } ]
+  },
+  "SpecFlowProjectAllure.Features.DemoAPIFeature.GetRequest_PlaceDetails" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "909edd26c55d7bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768881756,
+        "stop" : 1626768883968,
+        "duration" : 2212
+      }
+    } ]
+  },
+  "SpecFlowProjectAllure.Features.DemoAPIFeature.UpdateRequest_PlaceDetails" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "343713562befdae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768883969,
+        "stop" : 1626768886631,
+        "duration" : 2662
+      }
+    } ]
+  },
+  "SpecFlowProjectAllure.Features.DemoFeature.LaunchApp" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32fb5c36e0be2531",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768886642,
+        "stop" : 1626768896930,
+        "duration" : 10288
+      }
+    } ]
+  }
+}

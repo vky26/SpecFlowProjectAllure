@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "SpecFlowProjectAllure.Features.DemoAPIFeature",
+    "children" : [ {
+      "name" : "DeleteRequest",
+      "uid" : "bfc9987b42a11f61",
+      "parentUid" : "51fed247d46c84ddd310fea6504a4b14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768877776,
+        "stop" : 1626768881754,
+        "duration" : 3978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GetRequest_PlaceDetails",
+      "uid" : "909edd26c55d7bc1",
+      "parentUid" : "51fed247d46c84ddd310fea6504a4b14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768881756,
+        "stop" : 1626768883968,
+        "duration" : 2212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "UpdateRequest_PlaceDetails",
+      "uid" : "343713562befdae2",
+      "parentUid" : "51fed247d46c84ddd310fea6504a4b14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768883969,
+        "stop" : 1626768886631,
+        "duration" : 2662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "51fed247d46c84ddd310fea6504a4b14"
+  }, {
+    "name" : "SpecFlowProjectAllure.Features.DemoFeature",
+    "children" : [ {
+      "name" : "LaunchApp",
+      "uid" : "32fb5c36e0be2531",
+      "parentUid" : "77361839788aaf362722197e3a77f554",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768886642,
+        "stop" : 1626768896930,
+        "duration" : 10288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "77361839788aaf362722197e3a77f554"
+  }, {
+    "name" : "SpecFlowProjectAllure.Features.DemoPOMFeature",
+    "children" : [ {
+      "name" : "LaunchAppPOM",
+      "uid" : "c80c889c1d0e33fb",
+      "parentUid" : "d37641f90dd185c9cf302b7df58ee64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626768896931,
+        "stop" : 1626768906344,
+        "duration" : 9413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d37641f90dd185c9cf302b7df58ee64b"
+  } ]
+}

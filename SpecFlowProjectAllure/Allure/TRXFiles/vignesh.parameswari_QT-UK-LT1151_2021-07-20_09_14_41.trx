@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="de6e85ca-c464-45ab-aff1-d4d03291d355" name="vignesh.parameswari@QT-UK-LT1151 2021-07-20 09:14:41" runUser="QUALITEST\vignesh.parameswari" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-07-20T09:14:41.8120900+01:00" queuing="2021-07-20T09:14:41.8120912+01:00" start="2021-07-20T09:14:34.9796107+01:00" finish="2021-07-20T09:15:07.1961066+01:00" />
+  <TestSettings name="default" id="57c24b70-0a00-4399-add5-a96197a09d2d">
+    <Deployment runDeploymentRoot="vignesh.parameswari_QT-UK-LT1151_2021-07-20_09_14_41" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4b5ceffd-aed6-4c8d-8989-ca4f22f1ce62" testId="d1dce3c6-26e3-ca4a-81d7-207f9c5e1cad" testName="GetRequest_PlaceDetails" computerName="QT-UK-LT1151" duration="00:00:02.2120000" startTime="2021-07-20T09:14:41.7567945+01:00" endTime="2021-07-20T09:14:43.9682875+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b5ceffd-aed6-4c8d-8989-ca4f22f1ce62">
+      <Output>
+        <StdOut>Starting &#xD;
+Given I get the login token&#xD;
+Status 200&#xD;
+placeID 69e9530f5cb9d97dd77030a7d07d5543&#xD;
+status OK&#xD;
+-&gt; done: DemoAPISteps.GivenISendAPOSTRequest() (0.4s)&#xD;
+Then I get the place details&#xD;
+69e9530f5cb9d97dd77030a7d07d5543 is the api token value to be used for place_id in all request&#xD;
+Status 200&#xD;
+Name from the Get request --&gt;Frontline house&#xD;
+Address from the Get request --&gt;29, side layout, cohen 09&#xD;
+-&gt; done: DemoAPISteps.ThenIGetThePlaceDetails() (1.8s)&#xD;
+Finished</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9857d44e-c641-4424-b1c9-cb0d7a5dc859" testId="fb5338c0-889f-044b-ab47-6a7d04509454" testName="LaunchApp" computerName="QT-UK-LT1151" duration="00:00:10.2890000" startTime="2021-07-20T09:14:46.6420940+01:00" endTime="2021-07-20T09:14:56.9304010+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9857d44e-c641-4424-b1c9-cb0d7a5dc859">
+      <Output>
+        <StdOut>Starting &#xD;
+Given I launch the app&#xD;
+-&gt; done: DemoSteps.GivenILaunchTheApp() (6.3s)&#xD;
+And I click on wishlist&#xD;
+-&gt; done: DemoSteps.GivenIClickOnWishlist() (3.5s)&#xD;
+Then I logout of the app&#xD;
+-&gt; done: DemoSteps.ThenILogoutOfTheApp() (0.5s)&#xD;
+Finished</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cb86d759-21c3-4729-93df-d3e763f706a6" testId="0c4b98c8-2a6b-7508-bcb2-8edbdb39e37a" testName="UpdateRequest_PlaceDetails" computerName="QT-UK-LT1151" duration="00:00:02.6620000" startTime="2021-07-20T09:14:43.9694957+01:00" endTime="2021-07-20T09:14:46.6312528+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb86d759-21c3-4729-93df-d3e763f706a6">
+      <Output>
+        <StdOut>Starting &#xD;
+Given I get the login token&#xD;
+Status 200&#xD;
+placeID 33a25aef745894d8c3c36b52b70ee4b6&#xD;
+status OK&#xD;
+-&gt; done: DemoAPISteps.GivenISendAPOSTRequest() (0.3s)&#xD;
+Then I update the place details&#xD;
+33a25aef745894d8c3c36b52b70ee4b6 is the api token value to be used for place_id in all request&#xD;
+Status 200&#xD;
+Message --&gt;Address successfully updated&#xD;
+-&gt; done: DemoAPISteps.ThenIUpdateThePlaceDetails() (2.4s)&#xD;
+Finished</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59164180-d63a-4805-b6d6-2956dd09eeb4" testId="6bf6f355-8380-0e6d-36e5-202d56757f8b" testName="LaunchAppPOM" computerName="QT-UK-LT1151" duration="00:00:09.4140000" startTime="2021-07-20T09:14:56.9313947+01:00" endTime="2021-07-20T09:15:06.3447083+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59164180-d63a-4805-b6d6-2956dd09eeb4">
+      <Output>
+        <StdOut>Starting &#xD;
+Given I launch the app POM&#xD;
+Launched App&#xD;
+-&gt; done: DemoPOMSteps.GivenILaunchTheApp() (5.6s)&#xD;
+And I click on wishlist POM&#xD;
+Clicked on wishlist&#xD;
+-&gt; done: DemoPOMSteps.GivenIClickOnWishlist() (3.4s)&#xD;
+Then I logout of the app POM&#xD;
+Done&#xD;
+-&gt; done: DemoPOMSteps.ThenILogoutOfTheApp() (0.0s)&#xD;
+Finished</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3947ab4-ecd0-4e80-b108-fc4d995021a6" testId="e9947288-dba3-bc97-3545-65fd2b59a7f5" testName="DeleteRequest" computerName="QT-UK-LT1151" duration="00:00:03.9780000" startTime="2021-07-20T09:14:37.7765159+01:00" endTime="2021-07-20T09:14:41.7544856+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3947ab4-ecd0-4e80-b108-fc4d995021a6">
+      <Output>
+        <StdOut>Starting &#xD;
+Given I get the login token&#xD;
+Status 200&#xD;
+placeID 1061ffe3dfa96e43d6a770679f4851ca&#xD;
+status OK&#xD;
+-&gt; done: DemoAPISteps.GivenISendAPOSTRequest() (1.0s)&#xD;
+Then I delete the place&#xD;
+1061ffe3dfa96e43d6a770679f4851ca is the api token value to be used for place_id in all request&#xD;
+Status 200&#xD;
+status --&gt;OK&#xD;
+status --&gt;&#xD;
+-&gt; done: DemoAPISteps.ThenIDeleteThePlace() (2.9s)&#xD;
+Finished</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LaunchApp" storage="c:\users\vignesh.parameswari\source\repos\specflowprojectallure\specflowprojectallure\bin\debug\net472\specflowprojectallure.dll" id="fb5338c0-889f-044b-ab47-6a7d04509454">
+      <Execution id="9857d44e-c641-4424-b1c9-cb0d7a5dc859" />
+      <TestMethod codeBase="C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\bin\Debug\net472\SpecFlowProjectAllure.dll" adapterTypeName="executor://nunit3testexecutor/" className="SpecFlowProjectAllure.Features.DemoFeature" name="LaunchApp" />
+    </UnitTest>
+    <UnitTest name="GetRequest_PlaceDetails" storage="c:\users\vignesh.parameswari\source\repos\specflowprojectallure\specflowprojectallure\bin\debug\net472\specflowprojectallure.dll" id="d1dce3c6-26e3-ca4a-81d7-207f9c5e1cad">
+      <Execution id="4b5ceffd-aed6-4c8d-8989-ca4f22f1ce62" />
+      <TestMethod codeBase="C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\bin\Debug\net472\SpecFlowProjectAllure.dll" adapterTypeName="executor://nunit3testexecutor/" className="SpecFlowProjectAllure.Features.DemoAPIFeature" name="GetRequest_PlaceDetails" />
+    </UnitTest>
+    <UnitTest name="UpdateRequest_PlaceDetails" storage="c:\users\vignesh.parameswari\source\repos\specflowprojectallure\specflowprojectallure\bin\debug\net472\specflowprojectallure.dll" id="0c4b98c8-2a6b-7508-bcb2-8edbdb39e37a">
+      <Execution id="cb86d759-21c3-4729-93df-d3e763f706a6" />
+      <TestMethod codeBase="C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\bin\Debug\net472\SpecFlowProjectAllure.dll" adapterTypeName="executor://nunit3testexecutor/" className="SpecFlowProjectAllure.Features.DemoAPIFeature" name="UpdateRequest_PlaceDetails" />
+    </UnitTest>
+    <UnitTest name="DeleteRequest" storage="c:\users\vignesh.parameswari\source\repos\specflowprojectallure\specflowprojectallure\bin\debug\net472\specflowprojectallure.dll" id="e9947288-dba3-bc97-3545-65fd2b59a7f5">
+      <Execution id="a3947ab4-ecd0-4e80-b108-fc4d995021a6" />
+      <TestMethod codeBase="C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\bin\Debug\net472\SpecFlowProjectAllure.dll" adapterTypeName="executor://nunit3testexecutor/" className="SpecFlowProjectAllure.Features.DemoAPIFeature" name="DeleteRequest" />
+    </UnitTest>
+    <UnitTest name="LaunchAppPOM" storage="c:\users\vignesh.parameswari\source\repos\specflowprojectallure\specflowprojectallure\bin\debug\net472\specflowprojectallure.dll" id="6bf6f355-8380-0e6d-36e5-202d56757f8b">
+      <Execution id="59164180-d63a-4805-b6d6-2956dd09eeb4" />
+      <TestMethod codeBase="C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\bin\Debug\net472\SpecFlowProjectAllure.dll" adapterTypeName="executor://nunit3testexecutor/" className="SpecFlowProjectAllure.Features.DemoPOMFeature" name="LaunchAppPOM" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d1dce3c6-26e3-ca4a-81d7-207f9c5e1cad" executionId="4b5ceffd-aed6-4c8d-8989-ca4f22f1ce62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb5338c0-889f-044b-ab47-6a7d04509454" executionId="9857d44e-c641-4424-b1c9-cb0d7a5dc859" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c4b98c8-2a6b-7508-bcb2-8edbdb39e37a" executionId="cb86d759-21c3-4729-93df-d3e763f706a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bf6f355-8380-0e6d-36e5-202d56757f8b" executionId="59164180-d63a-4805-b6d6-2956dd09eeb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9947288-dba3-bc97-3545-65fd2b59a7f5" executionId="a3947ab4-ecd0-4e80-b108-fc4d995021a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.0.0.0: Test execution started&#xD;
+Running all tests in C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\bin\Debug\net472\SpecFlowProjectAllure.dll&#xD;
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+Starting &#xD;
+Given I get the login token&#xD;
+Status 200&#xD;
+placeID 1061ffe3dfa96e43d6a770679f4851ca&#xD;
+status OK&#xD;
+-&gt; done: DemoAPISteps.GivenISendAPOSTRequest() (1.0s)&#xD;
+Then I delete the place&#xD;
+1061ffe3dfa96e43d6a770679f4851ca is the api token value to be used for place_id in all request&#xD;
+Status 200&#xD;
+status --&gt;OK&#xD;
+status --&gt;&#xD;
+-&gt; done: DemoAPISteps.ThenIDeleteThePlace() (2.9s)&#xD;
+Finished&#xD;
+&#xD;
+Starting &#xD;
+Given I get the login token&#xD;
+Status 200&#xD;
+placeID 69e9530f5cb9d97dd77030a7d07d5543&#xD;
+status OK&#xD;
+-&gt; done: DemoAPISteps.GivenISendAPOSTRequest() (0.4s)&#xD;
+Then I get the place details&#xD;
+69e9530f5cb9d97dd77030a7d07d5543 is the api token value to be used for place_id in all request&#xD;
+Status 200&#xD;
+Name from the Get request --&gt;Frontline house&#xD;
+Address from the Get request --&gt;29, side layout, cohen 09&#xD;
+-&gt; done: DemoAPISteps.ThenIGetThePlaceDetails() (1.8s)&#xD;
+Finished&#xD;
+&#xD;
+Starting &#xD;
+Given I get the login token&#xD;
+Status 200&#xD;
+placeID 33a25aef745894d8c3c36b52b70ee4b6&#xD;
+status OK&#xD;
+-&gt; done: DemoAPISteps.GivenISendAPOSTRequest() (0.3s)&#xD;
+Then I update the place details&#xD;
+33a25aef745894d8c3c36b52b70ee4b6 is the api token value to be used for place_id in all request&#xD;
+Status 200&#xD;
+Message --&gt;Address successfully updated&#xD;
+-&gt; done: DemoAPISteps.ThenIUpdateThePlaceDetails() (2.4s)&#xD;
+Finished&#xD;
+&#xD;
+Starting &#xD;
+Given I launch the app&#xD;
+-&gt; done: DemoSteps.GivenILaunchTheApp() (6.3s)&#xD;
+And I click on wishlist&#xD;
+-&gt; done: DemoSteps.GivenIClickOnWishlist() (3.5s)&#xD;
+Then I logout of the app&#xD;
+-&gt; done: DemoSteps.ThenILogoutOfTheApp() (0.5s)&#xD;
+Finished&#xD;
+&#xD;
+Starting &#xD;
+Given I launch the app POM&#xD;
+Launched App&#xD;
+-&gt; done: DemoPOMSteps.GivenILaunchTheApp() (5.6s)&#xD;
+And I click on wishlist POM&#xD;
+Clicked on wishlist&#xD;
+-&gt; done: DemoPOMSteps.GivenIClickOnWishlist() (3.4s)&#xD;
+Then I logout of the app POM&#xD;
+Done&#xD;
+-&gt; done: DemoPOMSteps.ThenILogoutOfTheApp() (0.0s)&#xD;
+Finished&#xD;
+&#xD;
+NUnit Adapter 4.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

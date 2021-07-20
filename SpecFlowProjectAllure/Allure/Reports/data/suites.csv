@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 20 09:14:41 BST 2021","Tue Jul 20 09:14:43 BST 2021","2212","","SpecFlowProjectAllure.Features.DemoAPIFeature","","SpecFlowProjectAllure.Features.DemoAPIFeature","","GetRequest_PlaceDetails",""
+"passed","Tue Jul 20 09:14:37 BST 2021","Tue Jul 20 09:14:41 BST 2021","3978","","SpecFlowProjectAllure.Features.DemoAPIFeature","","SpecFlowProjectAllure.Features.DemoAPIFeature","","DeleteRequest",""
+"passed","Tue Jul 20 09:14:46 BST 2021","Tue Jul 20 09:14:56 BST 2021","10288","","SpecFlowProjectAllure.Features.DemoFeature","","SpecFlowProjectAllure.Features.DemoFeature","","LaunchApp",""
+"passed","Tue Jul 20 09:14:43 BST 2021","Tue Jul 20 09:14:46 BST 2021","2662","","SpecFlowProjectAllure.Features.DemoAPIFeature","","SpecFlowProjectAllure.Features.DemoAPIFeature","","UpdateRequest_PlaceDetails",""
+"passed","Tue Jul 20 09:14:56 BST 2021","Tue Jul 20 09:15:06 BST 2021","9413","","SpecFlowProjectAllure.Features.DemoPOMFeature","","SpecFlowProjectAllure.Features.DemoPOMFeature","","LaunchAppPOM",""

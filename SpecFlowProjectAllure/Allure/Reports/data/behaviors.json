@@ -1,0 +1,70 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "DeleteRequest",
+    "uid" : "bfc9987b42a11f61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626768877776,
+      "stop" : 1626768881754,
+      "duration" : 3978
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GetRequest_PlaceDetails",
+    "uid" : "909edd26c55d7bc1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626768881756,
+      "stop" : 1626768883968,
+      "duration" : 2212
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "UpdateRequest_PlaceDetails",
+    "uid" : "343713562befdae2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626768883969,
+      "stop" : 1626768886631,
+      "duration" : 2662
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LaunchApp",
+    "uid" : "32fb5c36e0be2531",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626768886642,
+      "stop" : 1626768896930,
+      "duration" : 10288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LaunchAppPOM",
+    "uid" : "c80c889c1d0e33fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626768896931,
+      "stop" : 1626768906344,
+      "duration" : 9413
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

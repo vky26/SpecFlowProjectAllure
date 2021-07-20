@@ -1,0 +1,86 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SpecFlowProjectAllure.Features",
+    "children" : [ {
+      "name" : "DemoAPIFeature",
+      "children" : [ {
+        "name" : "DeleteRequest",
+        "uid" : "bfc9987b42a11f61",
+        "parentUid" : "09d14cc4bef9de8fd20c54050d5d6b2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626768877776,
+          "stop" : 1626768881754,
+          "duration" : 3978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GetRequest_PlaceDetails",
+        "uid" : "909edd26c55d7bc1",
+        "parentUid" : "09d14cc4bef9de8fd20c54050d5d6b2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626768881756,
+          "stop" : 1626768883968,
+          "duration" : 2212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "UpdateRequest_PlaceDetails",
+        "uid" : "343713562befdae2",
+        "parentUid" : "09d14cc4bef9de8fd20c54050d5d6b2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626768883969,
+          "stop" : 1626768886631,
+          "duration" : 2662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09d14cc4bef9de8fd20c54050d5d6b2d"
+    }, {
+      "name" : "DemoFeature",
+      "children" : [ {
+        "name" : "LaunchApp",
+        "uid" : "32fb5c36e0be2531",
+        "parentUid" : "897b6fcbe5221a5cecc4734a0b024ee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626768886642,
+          "stop" : 1626768896930,
+          "duration" : 10288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "897b6fcbe5221a5cecc4734a0b024ee9"
+    }, {
+      "name" : "DemoPOMFeature",
+      "children" : [ {
+        "name" : "LaunchAppPOM",
+        "uid" : "c80c889c1d0e33fb",
+        "parentUid" : "c2050c0c22e4561bf3aa10f62a561e50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626768896931,
+          "stop" : 1626768906344,
+          "duration" : 9413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2050c0c22e4561bf3aa10f62a561e50"
+    } ],
+    "uid" : "SpecFlowProjectAllure.Features"
+  } ]
+}
