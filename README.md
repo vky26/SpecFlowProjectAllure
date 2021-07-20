@@ -7,7 +7,7 @@ SpecFlow 4.7 .Net FW, NUnit, SpecFlow , Allure
 Learning Ref: 
 
 
-5 Days Schedule
+Concepts:
 Monday – System and Environment setup. Looking at C# syntax and similarity with Java. Explore Udemy courses
 Tuesday – Creating a basic framework using C#, .Net framework and SpecFlow
 Wednesday – Case study and different components of a framework
@@ -39,17 +39,23 @@ allure --version
 
 ---------------------------------------------------
 Reference for Report Generation via CLI: 
- 
 
-cd C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure
+Project Folder: C:\Users\****\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure
+Allure Installation Path: C:\Users\****\scoop\apps\allure\2.14.0\bin
+Create Folders for TRX: C:\Users\****\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\TRXFiles 
+Create Folder for Reports: C:\Users\****\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\Reports
 
-dotnet test "SpecFlowProjectAllure.csproj" --logger trx --results-directory "C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\TRXFiles"
 
-cd C:\Users\vignesh.parameswari\scoop\apps\allure\2.14.0\bin
 
-allure generate "C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\TRXFiles" -o "C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\Reports" --clean
+cd C:\Users\****\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure
 
-allure open C:\Users\vignesh.parameswari\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\Reports
+dotnet test "SpecFlowProjectAllure.csproj" --logger trx --results-directory "C:\Users\****\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\TRXFiles"
+
+cd C:\Users\****\scoop\apps\allure\2.14.0\bin
+
+allure generate "C:\Users\****\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\TRXFiles" -o "C:\Users\****\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\Reports" --clean
+
+allure open C:\Users\****\source\repos\SpecFlowProjectAllure\SpecFlowProjectAllure\Allure\Reports
 
 
 --------------------------------------------------------------------
