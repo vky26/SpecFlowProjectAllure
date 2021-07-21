@@ -66,3 +66,5 @@ https://testscriptdemo.com/   (Test App)
 https://testifyqa.com/csharp-frameworks/
 https://www.toolsqa.com/restsharp/validate-response-status-using-rest-sharp/
 https://www.automatetheplanet.com/test-automation-reporting-allure/#tab-con-2
+https://www.postgresql.org/download/windows/
+https://zetcode.com/csharp/postgresql/
